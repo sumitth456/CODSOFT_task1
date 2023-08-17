@@ -1,0 +1,134 @@
+body {
+    background-image:  url("b1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: rgba(0, 195, 255, 0.574);
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+     padding: 1rem;
+  }
+  
+  header nav a {
+    color:  #f44336;
+    text-decoration: none;
+    margin: 0 1rem;
+      
+}
+  
+  main {
+    padding: 2rem;
+  }
+  
+  .hero {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+
+  h4 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .cta-btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+  }
+  
+  #about,
+  #author,
+  #reviews,
+  #contact {
+    margin-bottom: 2rem;
+  }
+  
+  .review {
+    margin-bottom: 1rem;
+  }
+  
+  .review h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .review span {
+    display: block;
+    text-align: right;
+  }
+  
+  #contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  #contact input,
+  #contact textarea {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+  }
+  
+  #contact button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  p {
+    color: rgb(4, 87, 117);
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 40px;
+    color:#043e55;
+  }
+
+  h3 {
+    font-size: 30px;
+    color:#478fbc;
+    font-style: italic;
+  }
+
+  b{
+    color: #333;
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.about-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .about-section > * {
+    flex: 4;
+    margin: 10px;
+    
+  }
+  
+  

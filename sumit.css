@@ -1,0 +1,25 @@
+p {
+    color: rgb(4, 87, 117);
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 40px;
+    color:#043e55;
+  }
+
+  h3 {
+    font-size: 30px;
+    color:#478fbc;
+  }
+
+  a:link, a:visited {
+    
+    overflow: hidden;
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
